@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html lang="en">
+
+
+</div>
+
+<div ID="background">
+
+    <link rel="stylesheet" type="tect/css" href="style.css" <meta charset="utf-8">
+  
+  
+    <title>Kill to win</title>
+    <meta name="description" content="Kill to win game">
+    <meta name="author" content="@crazyman">
+  
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+  
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  
+  </head>
+  
+  </div>
+  
+  <div id="title">
+  
+    <p>Welcome to the official website of kill to win! Enjoy your stay.
+      <p>
+        <div>
+  
+          <body>
+            <script src="js/scripts.js"></script>
+          </body>
+  
+  
+         
+            <style>
+              canvas {
+                border: 3px #CCC solid;
+              }
+            </style>
+          </head>
+  
+          <body>
+  
+            <div id="container">
+  
+              <canvas id="myCanvas" height="450" width="450"></canvas>
+            </div>
+            <script>
+              var mainCanvas = document.querySelector("#myCanvas");
+              var mainContext = mainCanvas.getContext("2d");
+  
+              var canvasWidth = mainCanvas.width;
+              var canvasHeight = mainCanvas.height;
+  
+              function drawCircle() {
+  
+              }
+              drawCircle();
+              function drawCircle() {
+  
+              }
+              drawCircle();
+              function drawCircle() {
+                mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
+  
+                // color in the background
+                mainContext.fillStyle = "#EEEEEE";
+                mainContext.fillRect(0, 0, canvasWidth, canvasHeight);
+  
+                // draw the circle
+                mainContext.beginPath();
+  
+                var radius = 175;
+                mainContext.arc(225, 225, radius, 0, Math.PI * 2, false);
+                mainContext.closePath();
+  
+                // color in the circle
+                mainContext.fillStyle = "#006699";
+                mainContext.fill();
+              }
+              drawCircle();
+              mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
+              mainContext.fillStyle = "#EEEEEE";
+              mainContext.fillRect(0, 0, canvasWidth, canvasHeight);
+              mainContext.beginPath();
+  
+              var radius = 175;
+              mainContext.arc(225, 225, radius, 0, Math.PI * 2, false);
+              mainContext.closePath();
+              var radius = 175;
+              mainContext.arc(225, 225, radius, 0, Math.PI * 2, false);
+              mainContext.fillStyle = "#006699";
+              mainContext.fill();
+              var mainCanvas = document.getElementById("myCanvas");
+              var mainContext = mainCanvas.getContext("2d");
+  
+              var canvasWidth = mainCanvas.width;
+              var canvasHeight = mainCanvas.height;
+  
+              var requestAnimationFrame = window.requestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.msRequestAnimationFrame;
+  
+              function drawCircle() {
+                mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
+  
+                // color in the background
+                mainContext.fillStyle = "#EEEEEE";
+                mainContext.fillRect(0, 0, canvasWidth, canvasHeight);
+  
+                // draw the circle
+                mainContext.beginPath();
+  
+                var radius = 175;
+                mainContext.arc(225, 225, radius, 0, Math.PI * 2, false);
+                mainContext.closePath();
+  
+                // color in the circle
+                mainContext.fillStyle = "#006699";
+                mainContext.fill();
+  
+                requestAnimationFrame(drawCircle);
+              }
+              drawCircle();
+              var mainCanvas = document.getElementById("myCanvas");
+              var mainContext = mainCanvas.getContext('2d');
+  
+              var canvasWidth = mainCanvas.width;
+              var canvasHeight = mainCanvas.height;
+  
+              var angle = 0;
+  
+              var requestAnimationFrame = window.requestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.msRequestAnimationFrame;
+  
+              function drawCircle() {
+                mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
+  
+                // color in the background
+                mainContext.fillStyle = "#EEEEEE";
+                mainContext.fillRect(0, 0, canvasWidth, canvasHeight);
+  
+                // draw the circle
+                mainContext.beginPath();
+  
+                var radius = 25 + 150 * Math.abs(Math.cos(angle));
+                mainContext.arc(225, 225, radius, 0, Math.PI * 2, false);
+                mainContext.closePath();
+  
+                // color in the circle
+                mainContext.fillStyle = "#006699";
+                mainContext.fill();
+  
+                angle += Math.PI / 64;
+  
+                requestAnimationFrame(drawCircle);
+              }
+              drawCircle();
+              var angle = 0;
+              var radius = 25 + 150 * Math.abs(Math.cos(angle));
+              angle += Math.PI / 64;
+            </script>
+  
+          </body>
+  
+          </html></div>
+
+</html>
